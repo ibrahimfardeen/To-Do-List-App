@@ -9,10 +9,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h1, h2 {
-  text-align: center;
-}
-
 form {
   margin-bottom: 10px;
 }
@@ -50,4 +46,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  width: 17%;
+  text-align: right;
+  margin-bottom: 20px;
+  padding: 10px;
 }
